@@ -33,3 +33,17 @@ source env/bin/activate  # On Windows: env\Scripts\activate
 # Install dependencies
 pip install -r requirements.txt
 
+## 🚀 Project Structure 
+
+AnyLoss/
+├── data/                   # Datasets used for experiments
+├── models/                 # Pre-trained models and checkpoints
+├── notebooks/              # Jupyter notebooks demonstrating usage
+├── anyloss/                # Core implementation of AnyLoss
+│   ├── __init__.py
+│   ├── loss_functions.py   # Implementation of various loss functions
+│   └── utils.py            # Utility functions
+├── tests/                  # Unit tests for the package
+├── requirements.txt        # Python dependencies
+└── README.md               # Project documentation
+
